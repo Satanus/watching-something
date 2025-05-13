@@ -37,7 +37,7 @@ npm install @xhayper/discord-rpc trakt.tv axios
     "username": "your_trakt_username"
   },
   "discord": {
-    "clientId": "your_discord_application_id"
+    "clientId": "your_discord_application_id"  // My Discord Application/Bot is default, 1268103402454257714. If having issues, switch to your own.
   },
   "omdb": {
     "apiKey": "your_omdb_api_key"
