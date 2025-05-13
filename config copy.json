@@ -1,0 +1,14 @@
+{
+    "trakt": {
+        "client_id": "your_trakt_client_id",
+        "client_secret": "your_trakt_client_secret",
+        "username": "your_trakt_username"
+    },
+    "discord": {
+        "clientId": "your_discord_client_id"
+    },
+    "omdb": {
+        "apiKey": "your_omdb_api_key"
+    },
+    "updateInterval": 15000
+}
