@@ -28,14 +28,13 @@ Displays your currently watching Trakt.tv shows/movies as Discord rich presence.
 3. Edit `config.json` with your API keys (see configuration below)
 4. Run by either:
    - Double-clicking `watching-something.exe`
-   - Or from command prompt: ```cmd
-watching-something.exe
-```
+   - Or from command prompt, running watching-something.exe
+
 
 ### Option 2: From Source (Node.js)
 1. Clone this repository
-2. Install dependencies: ```bash
-npm install @xhayper/discord-rpc trakt.tv axios
+2. Install dependencies: 
+`npm install @xhayper/discord-rpc trakt.tv axios`
 ```
 3. Create `config.json` (see below)
 4. Run: ```bash
@@ -43,7 +42,8 @@ node main.js
 ```
 
 ## Configuration
-Create/edit `config.json`: ```json
+Create/edit `config.json`: 
+```json
 {
   "trakt": {
     "client_id": "your_trakt_client_id",
@@ -60,12 +60,14 @@ Create/edit `config.json`: ```json
 ```
 
 ## Auto-Start (Windows)
-For EXE version: ```bat
+For EXE version: 
+```bat
 @ECHO OFF
 START /min "C:\path\to\watching-something.exe"
 ```
 
-For Node.js version: ```bat
+For Node.js version: 
+```bat
 @ECHO OFF
 START /min node "C:\path\to\main.js"
 ```
