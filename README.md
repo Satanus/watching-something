@@ -34,10 +34,12 @@ Displays your currently watching Trakt.tv shows/movies as Discord rich presence.
 ### Option 2: From Source (Node.js)
 1. Clone this repository
 2. Install dependencies: 
-`npm install @xhayper/discord-rpc trakt.tv axios`
+```bash
+npm install @xhayper/discord-rpc trakt.tv axios
 ```
-3. Create `config.json` (see below)
-4. Run: ```bash
+4. Create `config.json` (see below)
+5. Run:
+```bash
 node main.js
 ```
 
