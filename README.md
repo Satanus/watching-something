@@ -60,6 +60,11 @@ Then place the shortcut in your Startup folder (`shell:startup`)
 
 ## Getting API Keys
 - Trakt.tv: https://trakt.tv/oauth/applications
+  - <details><summary>Trakt API app settings</summary>![image](https://github.com/user-attachments/assets/63d9fcbe-39e5-4ba6-800c-264b25e36b19)
+Redirect uri: `urn:ietf:wg:oauth:2.0:oob `
+Javascripti (cors) origins: `https://discord.com`
+  </details>
+
 - OMDb: http://www.omdbapi.com/apikey.aspx
 - Discord: Create application at https://discord.com/developers/applications
 
