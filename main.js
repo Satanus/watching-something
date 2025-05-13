@@ -109,7 +109,7 @@ async function updatePresence(activity) {
 
 async function getWatchingActivity() {
     try {
-        const activity = await trakt.users.watching({ username: 'gk00' });
+        const activity = await trakt.users.watching({ username: config.trakt.username });
         return activity;
     } catch (error) {
         console.error('Failed to fetch watching activity:', error.message);
