@@ -66,7 +66,7 @@ Then place the shortcut in your Startup folder (`shell:startup`)
     - Javascripti (cors) origins: `https://discord.com`
 - OMDb: http://www.omdbapi.com/apikey.aspx
 - Discord: Create application at https://discord.com/developers/applications
-
+  - The name of your app/bot is what will show in your status. For example, mine is named "something 👀" and shows as "Watching something 👀" on Discord.
 ## Notes
 - Runs in system tray when started via batch file
 - Checks for updates every 15 seconds
